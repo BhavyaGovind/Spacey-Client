@@ -196,9 +196,9 @@ class HomePage extends Component {
 
           </div>
           <h4>*SpaceX will keep your data private; morning, moon and night. That is our privacy policy in nutshell</h4>
-          <div className="text-danger">{this.state.errors.FirstName}</div>
-          <div className="text-danger">{this.state.errors.LastName}</div>
-          <div className="text-danger">{this.state.errors.email}</div>
+          <div class="text-danger">{this.state.errors.FirstName}</div>
+          <div class="text-danger">{this.state.errors.LastName}</div>
+          <div class="text-danger">{this.state.errors.email}</div>
 
 
           <div className={this.state.visibility}>
@@ -220,6 +220,7 @@ class HomePage extends Component {
                 })
               }
               </ul>
+              <br />
               <label>
                 <input
                   type="radio"
@@ -247,6 +248,7 @@ class HomePage extends Component {
                 />
                 Monthly
               </label>
+              <br/>
               <br/>
               <button class="subscribe" onClick={this.handleSubmit}> Subscribe </button>
               <div>
