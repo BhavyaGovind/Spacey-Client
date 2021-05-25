@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+.invisible {
+  display: none;
+}
+.visible {
+  display:block;
+}
+.home {
+  background-color: white;
+}
+.logo {
+  width:10%;
+  height: 100%;
+}
+Link {
+  margin: 5px;
+}
+.inputForm {
+  display: grid;
+  width: 80vw;
+  margin: 0 auto;
+  grid-template-rows: 50px;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-gap: 5px;
+
+}
+.navBar {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 50px;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.link {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.list {
+  list-style-type: none;
+  text-align: left;
+}
+.subscribe {
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .inputForm {
+    display: grid;
+    width: 80vw;
+    margin: 0 auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  .email {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+  }
+  .logo {
+    width: 90px;
+    height:30px;
+  }
+}
