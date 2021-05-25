@@ -8,7 +8,7 @@ body {
 .visible {
   display:block;
 }
-.home {
+.subscribeForm {
   background-color: white;
 }
 .logo {
@@ -44,6 +44,12 @@ Link {
 .list {
   list-style-type: none;
   text-align: left;
+  display: grid;
+  width: 110vh;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
 }
 .subscribe {
   width: 80px;
@@ -52,6 +58,9 @@ Link {
   color: white;
   font-weight: bold;
   border-radius: 5px;
+  margin: 5px;
+}
+.topics {
   margin: 5px;
 }
 @media only screen and (max-width: 600px) {

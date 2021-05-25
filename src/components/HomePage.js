@@ -165,10 +165,12 @@ class HomePage extends Component {
   render() {
     return (
       <div class="home">
-        <h3> Keep up to(star) date on all our offerings. Subscribe now! </h3>
+
         <div className="subscribeForm">
+        <h3> Keep up to(star) date on all our offerings. Subscribe now! </h3>
         <form onSubmit={this.handleSubmit}>
           <div class="inputForm">
+
             <input
 
               type="text"
