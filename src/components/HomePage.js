@@ -93,7 +93,7 @@ class HomePage extends Component {
       }
     })
     .then((response) => {
-      this.setState({message: "Thank you" + response.data.subscriber.first_name + "for subscribing to our news letter"})
+      this.setState({message: "Thank you" +  " " +response.data.subscriber.first_name + " " + "for subscribing to our news letter"})
     }, (error) => {
       this.setState({message: "Sorry there is some glitch in the network, please try again"})
     });
